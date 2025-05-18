@@ -15,7 +15,7 @@ videoList.forEach(videoFile => {
   btn.textContent = musicName;
 
   btn.addEventListener("click", () => {
-    videoPlayer.src = `src/Videos/${videoFile}`;
+    videoPlayer.src = `src/Music/${videoFile}`;
     videoTitle.textContent = musicName;
     videoPlayer.play();
   });
