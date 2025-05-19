@@ -2,7 +2,7 @@
 const videoList = [
   "Music Black Clover 3.mp3",
   "Music Black Clover 12.mp4",
-  "Another_Song.mp4"
+  "Music Fate Stay-Night.mp3"
 ];
 
 const playlistContainer = document.getElementById("playlist");
