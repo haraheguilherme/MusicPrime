@@ -1,5 +1,5 @@
 // Lista manual dos vídeos (simulando leitura da pasta)
-const videoList = [
+const musicList = [
   "Music Black Clover 3.mp3",
   "Music Black Clover 12.mp3",
   "Music Fate Stay-Night.mp3",
@@ -12,18 +12,18 @@ const videoList = [
 ];
 
 const playlistContainer = document.getElementById("playlist");
-const videoPlayer = document.getElementById("videoPlayer");
-const videoTitle = document.getElementById("videoTitle");
+const musicPlayer = document.getElementById("musicPlayer");
+const musicTitle = document.getElementById("musicTitle");
 
-videoList.forEach(videoFile => {
+musicList.forEach(musicFile => {
   const btn = document.createElement("button");
-  const musicName = videoFile.replace(".mp4", "").replace(/_/g, " ");
+  const musicName = musicFile.replace(".mp3", "").replace(/_/g, " ");
   btn.textContent = musicName;
 
   btn.addEventListener("click", () => {
-    videoPlayer.src = `src/Music/${videoFile}`;
-    videoTitle.textContent = musicName;
-    videoPlayer.play();
+    musicPlayer.src = `src/Music/${musicFile}`;
+    musicTitle.textContent = musicName;
+    musicPlayer.play();
   });
 
   playlistContainer.appendChild(btn);
