@@ -7,7 +7,7 @@ const musicList = [
   "Music Jujutsu Kaisen.mp3",
   "Music Oshi no ko.mp3",
   "Music Solo Leveling.mp3",
-  "Music The Rising of the Shield Hero",
+  "Music The Rising of the Shield Hero.mp3",
   "Music Tower of God.mp3"
 ];
 
