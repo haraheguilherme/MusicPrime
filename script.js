@@ -1,6 +1,6 @@
 // Lista manual dos vídeos (simulando leitura da pasta)
 const videoList = [
-  "Song1.mp4",
+  "Music Black Clover 3.mp3",
   "Song2.mp4",
   "Another_Song.mp4"
 ];
