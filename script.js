@@ -8,7 +8,7 @@ const musicList = [
   "Music Oshi no ko.mp3",
   "Music Solo Leveling.mp3",
   "Music The Rising of the Shield Hero",
-  "Music Tower of God"
+  "Music Tower of God.mp3"
 ];
 
 const playlistContainer = document.getElementById("playlist");
